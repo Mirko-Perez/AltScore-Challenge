@@ -1,12 +1,13 @@
 import argparse
 
 from api_client import ApiClient
-from missions import e1_silent_probe, e2_kepler_oracle, e3_sith_temple
+from missions import e1_silent_probe, e2_kepler_oracle, e3_sith_temple, e4_elven_forge
 
 MISSIONS = {
     "e1-silent-probe": e1_silent_probe.solve,
     "e2-kepler-oracle": e2_kepler_oracle.solve,
     "e3-sith-temple": e3_sith_temple.solve,
+    "e4-elven-forge": e4_elven_forge.solve,
 }
 
 parser = argparse.ArgumentParser()
