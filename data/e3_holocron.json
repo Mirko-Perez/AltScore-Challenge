@@ -1,0 +1,929 @@
+{
+  "planets": [
+    {
+      "name": "Tatooine",
+      "population": "200000",
+      "residents": [
+        "Luke Skywalker",
+        "C-3PO",
+        "Darth Vader",
+        "Owen Lars",
+        "Beru Whitesun lars",
+        "R5-D4",
+        "Biggs Darklighter",
+        "Anakin Skywalker",
+        "Shmi Skywalker",
+        "Cliegg Lars"
+      ]
+    },
+    {
+      "name": "Alderaan",
+      "population": "2000000000",
+      "residents": [
+        "Leia Organa",
+        "Bail Prestor Organa",
+        "Raymus Antilles"
+      ]
+    },
+    {
+      "name": "Yavin IV",
+      "population": "1000",
+      "residents": []
+    },
+    {
+      "name": "Hoth",
+      "population": "unknown",
+      "residents": []
+    },
+    {
+      "name": "Dagobah",
+      "population": "unknown",
+      "residents": []
+    },
+    {
+      "name": "Bespin",
+      "population": "6000000",
+      "residents": [
+        "Lobot"
+      ]
+    },
+    {
+      "name": "Endor",
+      "population": "30000000",
+      "residents": [
+        "Wicket Systri Warrick"
+      ]
+    },
+    {
+      "name": "Naboo",
+      "population": "4500000000",
+      "residents": [
+        "R2-D2",
+        "Palpatine",
+        "Padmé Amidala",
+        "Jar Jar Binks",
+        "Roos Tarpals",
+        "Rugor Nass",
+        "Ric Olié",
+        "Quarsh Panaka",
+        "Gregar Typho",
+        "Cordé",
+        "Dormé"
+      ]
+    },
+    {
+      "name": "Coruscant",
+      "population": "1000000000000",
+      "residents": [
+        "Finis Valorum",
+        "Adi Gallia",
+        "Jocasta Nu"
+      ]
+    },
+    {
+      "name": "Kamino",
+      "population": "1000000000",
+      "residents": [
+        "Boba Fett",
+        "Lama Su",
+        "Taun We"
+      ]
+    },
+    {
+      "name": "Geonosis",
+      "population": "100000000000",
+      "residents": [
+        "Poggle the Lesser"
+      ]
+    },
+    {
+      "name": "Utapau",
+      "population": "95000000",
+      "residents": [
+        "Tion Medon"
+      ]
+    },
+    {
+      "name": "Mustafar",
+      "population": "20000",
+      "residents": []
+    },
+    {
+      "name": "Kashyyyk",
+      "population": "45000000",
+      "residents": [
+        "Chewbacca",
+        "Tarfful"
+      ]
+    },
+    {
+      "name": "Polis Massa",
+      "population": "1000000",
+      "residents": []
+    },
+    {
+      "name": "Mygeeto",
+      "population": "19000000",
+      "residents": []
+    },
+    {
+      "name": "Felucia",
+      "population": "8500000",
+      "residents": []
+    },
+    {
+      "name": "Cato Neimoidia",
+      "population": "10000000",
+      "residents": [
+        "Nute Gunray"
+      ]
+    },
+    {
+      "name": "Saleucami",
+      "population": "1400000000",
+      "residents": []
+    },
+    {
+      "name": "Stewjon",
+      "population": "unknown",
+      "residents": [
+        "Obi-Wan Kenobi"
+      ]
+    },
+    {
+      "name": "Eriadu",
+      "population": "22000000000",
+      "residents": [
+        "Wilhuff Tarkin"
+      ]
+    },
+    {
+      "name": "Corellia",
+      "population": "3000000000",
+      "residents": [
+        "Han Solo",
+        "Wedge Antilles"
+      ]
+    },
+    {
+      "name": "Rodia",
+      "population": "1300000000",
+      "residents": [
+        "Greedo"
+      ]
+    },
+    {
+      "name": "Nal Hutta",
+      "population": "7000000000",
+      "residents": [
+        "Jabba Desilijic Tiure"
+      ]
+    },
+    {
+      "name": "Dantooine",
+      "population": "1000",
+      "residents": []
+    },
+    {
+      "name": "Bestine IV",
+      "population": "62000000",
+      "residents": [
+        "Jek Tono Porkins"
+      ]
+    },
+    {
+      "name": "Ord Mantell",
+      "population": "4000000000",
+      "residents": []
+    },
+    {
+      "name": "unknown",
+      "population": "unknown",
+      "residents": [
+        "Yoda",
+        "IG-88",
+        "Arvel Crynyd",
+        "Qui-Gon Jinn",
+        "R4-P17"
+      ]
+    },
+    {
+      "name": "Trandosha",
+      "population": "42000000",
+      "residents": [
+        "Bossk"
+      ]
+    },
+    {
+      "name": "Socorro",
+      "population": "300000000",
+      "residents": [
+        "Lando Calrissian"
+      ]
+    },
+    {
+      "name": "Mon Cala",
+      "population": "27000000000",
+      "residents": [
+        "Ackbar"
+      ]
+    },
+    {
+      "name": "Chandrila",
+      "population": "1200000000",
+      "residents": [
+        "Mon Mothma"
+      ]
+    },
+    {
+      "name": "Sullust",
+      "population": "18500000000",
+      "residents": [
+        "Nien Nunb"
+      ]
+    },
+    {
+      "name": "Toydaria",
+      "population": "11000000",
+      "residents": [
+        "Watto"
+      ]
+    },
+    {
+      "name": "Malastare",
+      "population": "2000000000",
+      "residents": [
+        "Sebulba"
+      ]
+    },
+    {
+      "name": "Dathomir",
+      "population": "5200",
+      "residents": [
+        "Darth Maul"
+      ]
+    },
+    {
+      "name": "Ryloth",
+      "population": "1500000000",
+      "residents": [
+        "Bib Fortuna",
+        "Ayla Secura"
+      ]
+    },
+    {
+      "name": "Aleen Minor",
+      "population": "unknown",
+      "residents": [
+        "Ratts Tyerel"
+      ]
+    },
+    {
+      "name": "Vulpter",
+      "population": "421000000",
+      "residents": [
+        "Dud Bolt"
+      ]
+    },
+    {
+      "name": "Troiken",
+      "population": "unknown",
+      "residents": [
+        "Gasgano"
+      ]
+    },
+    {
+      "name": "Tund",
+      "population": "0",
+      "residents": [
+        "Ben Quadinaros"
+      ]
+    },
+    {
+      "name": "Haruun Kal",
+      "population": "705300",
+      "residents": [
+        "Mace Windu"
+      ]
+    },
+    {
+      "name": "Cerea",
+      "population": "450000000",
+      "residents": [
+        "Ki-Adi-Mundi"
+      ]
+    },
+    {
+      "name": "Glee Anselm",
+      "population": "500000000",
+      "residents": [
+        "Kit Fisto"
+      ]
+    },
+    {
+      "name": "Iridonia",
+      "population": "unknown",
+      "residents": [
+        "Eeth Koth"
+      ]
+    },
+    {
+      "name": "Tholoth",
+      "population": "unknown",
+      "residents": []
+    },
+    {
+      "name": "Iktotch",
+      "population": "unknown",
+      "residents": [
+        "Saesee Tiin"
+      ]
+    },
+    {
+      "name": "Quermia",
+      "population": "unknown",
+      "residents": [
+        "Yarael Poof"
+      ]
+    },
+    {
+      "name": "Dorin",
+      "population": "unknown",
+      "residents": [
+        "Plo Koon"
+      ]
+    },
+    {
+      "name": "Champala",
+      "population": "3500000000",
+      "residents": [
+        "Mas Amedda"
+      ]
+    },
+    {
+      "name": "Mirial",
+      "population": "unknown",
+      "residents": [
+        "Luminara Unduli",
+        "Barriss Offee"
+      ]
+    },
+    {
+      "name": "Serenno",
+      "population": "unknown",
+      "residents": [
+        "Dooku"
+      ]
+    },
+    {
+      "name": "Concord Dawn",
+      "population": "unknown",
+      "residents": [
+        "Jango Fett"
+      ]
+    },
+    {
+      "name": "Zolan",
+      "population": "unknown",
+      "residents": [
+        "Zam Wesell"
+      ]
+    },
+    {
+      "name": "Ojom",
+      "population": "500000000",
+      "residents": [
+        "Dexter Jettster"
+      ]
+    },
+    {
+      "name": "Skako",
+      "population": "500000000000",
+      "residents": [
+        "Wat Tambor"
+      ]
+    },
+    {
+      "name": "Muunilinst",
+      "population": "5000000000",
+      "residents": [
+        "San Hill"
+      ]
+    },
+    {
+      "name": "Shili",
+      "population": "unknown",
+      "residents": [
+        "Shaak Ti"
+      ]
+    },
+    {
+      "name": "Kalee",
+      "population": "4000000000",
+      "residents": [
+        "Grievous"
+      ]
+    },
+    {
+      "name": "Umbara",
+      "population": "unknown",
+      "residents": [
+        "Sly Moore"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "Luke Skywalker",
+      "homeworld": "Tatooine",
+      "side": "light",
+      "oracle_notes": "Luke Skywalker is a Jedi, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "C-3PO",
+      "homeworld": "Tatooine",
+      "side": "light",
+      "oracle_notes": "C-3PO is a loyal protocol droid, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "R2-D2",
+      "homeworld": "Naboo",
+      "side": "light",
+      "oracle_notes": "R2-D2 is an astromech droid, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Darth Vader",
+      "homeworld": "Tatooine",
+      "side": "dark",
+      "oracle_notes": "Darth Vader was once a Jedi but fell to the Dark Side; he belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Leia Organa",
+      "homeworld": "Alderaan",
+      "side": "light",
+      "oracle_notes": "Leia Organa is a leader of the Rebellion, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Owen Lars",
+      "homeworld": "Tatooine",
+      "side": "light",
+      "oracle_notes": "Owen Lars is a moisture farmer, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Beru Whitesun lars",
+      "homeworld": "Tatooine",
+      "side": "light",
+      "oracle_notes": "Beru Whitesun Lars is a moisture farmer, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "R5-D4",
+      "homeworld": "Tatooine",
+      "side": "light",
+      "oracle_notes": "R5-D4 is an astromech droid, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Biggs Darklighter",
+      "homeworld": "Tatooine",
+      "side": "light",
+      "oracle_notes": "Biggs Darklighter is a Rebel pilot, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Obi-Wan Kenobi",
+      "homeworld": "Stewjon",
+      "side": "light",
+      "oracle_notes": "Obi-Wan Kenobi is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Anakin Skywalker",
+      "homeworld": "Tatooine",
+      "side": "dark",
+      "oracle_notes": "Anakin Skywalker was a Jedi Knight who fell to the Dark Side, becoming Darth Vader; he belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Wilhuff Tarkin",
+      "homeworld": "Eriadu",
+      "side": "dark",
+      "oracle_notes": "Wilhuff Tarkin is a Grand Moff of the Empire, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Chewbacca",
+      "homeworld": "Kashyyyk",
+      "side": "light",
+      "oracle_notes": "Chewbacca is a Wookiee warrior and co-pilot of the Millennium Falcon, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Han Solo",
+      "homeworld": "Corellia",
+      "side": "light",
+      "oracle_notes": "Han Solo is a smuggler and hero of the Rebellion, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Greedo",
+      "homeworld": "Rodia",
+      "side": "dark",
+      "oracle_notes": "Greedo is a bounty hunter, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Jabba Desilijic Tiure",
+      "homeworld": "Nal Hutta",
+      "side": "dark",
+      "oracle_notes": "Jabba Desilijic Tiure is a crime lord, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Wedge Antilles",
+      "homeworld": "Corellia",
+      "side": "light",
+      "oracle_notes": "Wedge Antilles is a Rebel pilot, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Jek Tono Porkins",
+      "homeworld": "Bestine IV",
+      "side": "light",
+      "oracle_notes": "Jek Tono Porkins is a Rebel pilot, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Yoda",
+      "homeworld": "unknown",
+      "side": "light",
+      "oracle_notes": "Yoda is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Palpatine",
+      "homeworld": "Naboo",
+      "side": "dark",
+      "oracle_notes": "Palpatine is the Sith Lord, also known as Darth Sidious, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Boba Fett",
+      "homeworld": "Kamino",
+      "side": "dark",
+      "oracle_notes": "Boba Fett is a bounty hunter, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "IG-88",
+      "homeworld": "unknown",
+      "side": "dark",
+      "oracle_notes": "IG-88 is an assassin droid, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Bossk",
+      "homeworld": "Trandosha",
+      "side": "dark",
+      "oracle_notes": "Bossk is a Trandoshan bounty hunter, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Lando Calrissian",
+      "homeworld": "Socorro",
+      "side": "light",
+      "oracle_notes": "Lando Calrissian is a gambler and Rebel ally, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Lobot",
+      "homeworld": "Bespin",
+      "side": "light",
+      "oracle_notes": "Lobot is an aide to Lando Calrissian, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Ackbar",
+      "homeworld": "Mon Cala",
+      "side": "light",
+      "oracle_notes": "Ackbar is a Rebel admiral, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Mon Mothma",
+      "homeworld": "Chandrila",
+      "side": "light",
+      "oracle_notes": "Mon Mothma is a leader of the Rebel Alliance, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Arvel Crynyd",
+      "homeworld": "unknown",
+      "side": "light",
+      "oracle_notes": "Arvel Crynyd is a Rebel pilot, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Wicket Systri Warrick",
+      "homeworld": "Endor",
+      "side": "light",
+      "oracle_notes": "Wicket Systri Warrick is an Ewok warrior, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Nien Nunb",
+      "homeworld": "Sullust",
+      "side": "light",
+      "oracle_notes": "Nien Nunb is a Rebel pilot, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Qui-Gon Jinn",
+      "homeworld": "unknown",
+      "side": "light",
+      "oracle_notes": "Qui-Gon Jinn is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Nute Gunray",
+      "homeworld": "Cato Neimoidia",
+      "side": "dark",
+      "oracle_notes": "Nute Gunray is a Trade Federation viceroy, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Finis Valorum",
+      "homeworld": "Coruscant",
+      "side": "light",
+      "oracle_notes": "Finis Valorum is a former Supreme Chancellor, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Padmé Amidala",
+      "homeworld": "Naboo",
+      "side": "light",
+      "oracle_notes": "Padmé Amidala is a Queen and Senator of Naboo, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Jar Jar Binks",
+      "homeworld": "Naboo",
+      "side": "light",
+      "oracle_notes": "Jar Jar Binks is a Gungan representative, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Roos Tarpals",
+      "homeworld": "Naboo",
+      "side": "light",
+      "oracle_notes": "Roos Tarpals is a Gungan captain, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Rugor Nass",
+      "homeworld": "Naboo",
+      "side": "light",
+      "oracle_notes": "Rugor Nass is a Gungan leader, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Ric Olié",
+      "homeworld": "Naboo",
+      "side": "light",
+      "oracle_notes": "Ric Olié is a pilot from Naboo, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Watto",
+      "homeworld": "Toydaria",
+      "side": "dark",
+      "oracle_notes": "Watto is a junk dealer on Tatooine, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Sebulba",
+      "homeworld": "Malastare",
+      "side": "dark",
+      "oracle_notes": "Sebulba is a podracer pilot, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Quarsh Panaka",
+      "homeworld": "Naboo",
+      "side": "light",
+      "oracle_notes": "Quarsh Panaka is a security captain, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Shmi Skywalker",
+      "homeworld": "Tatooine",
+      "side": "light",
+      "oracle_notes": "Shmi Skywalker is the mother of Anakin Skywalker, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Darth Maul",
+      "homeworld": "Dathomir",
+      "side": "dark",
+      "oracle_notes": "Darth Maul is a Sith apprentice, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Bib Fortuna",
+      "homeworld": "Ryloth",
+      "side": "dark",
+      "oracle_notes": "Bib Fortuna is a majordomo to Jabba the Hutt, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Ayla Secura",
+      "homeworld": "Ryloth",
+      "side": "light",
+      "oracle_notes": "Ayla Secura is a Jedi Knight, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Ratts Tyerel",
+      "homeworld": "Aleen Minor",
+      "side": "light",
+      "oracle_notes": "Ratts Tyerel is a podracer pilot, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Dud Bolt",
+      "homeworld": "Vulpter",
+      "side": "dark",
+      "oracle_notes": "Dud Bolt is a podracer pilot, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Gasgano",
+      "homeworld": "Troiken",
+      "side": "dark",
+      "oracle_notes": "Gasgano is a podracer pilot, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Ben Quadinaros",
+      "homeworld": "Tund",
+      "side": "light",
+      "oracle_notes": "Ben Quadinaros is a podracer pilot, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Mace Windu",
+      "homeworld": "Haruun Kal",
+      "side": "light",
+      "oracle_notes": "Mace Windu is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Ki-Adi-Mundi",
+      "homeworld": "Cerea",
+      "side": "light",
+      "oracle_notes": "Ki-Adi-Mundi is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Kit Fisto",
+      "homeworld": "Glee Anselm",
+      "side": "light",
+      "oracle_notes": "Kit Fisto is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Eeth Koth",
+      "homeworld": "Iridonia",
+      "side": "light",
+      "oracle_notes": "Eeth Koth is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Adi Gallia",
+      "homeworld": "Coruscant",
+      "side": "light",
+      "oracle_notes": "Adi Gallia is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Saesee Tiin",
+      "homeworld": "Iktotch",
+      "side": "light",
+      "oracle_notes": "Saesee Tiin is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Yarael Poof",
+      "homeworld": "Quermia",
+      "side": "light",
+      "oracle_notes": "Yarael Poof is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Plo Koon",
+      "homeworld": "Dorin",
+      "side": "light",
+      "oracle_notes": "Plo Koon is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Mas Amedda",
+      "homeworld": "Champala",
+      "side": "dark",
+      "oracle_notes": "Mas Amedda is a political aide to Palpatine, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Gregar Typho",
+      "homeworld": "Naboo",
+      "side": "light",
+      "oracle_notes": "Gregar Typho is a security captain, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Cordé",
+      "homeworld": "Naboo",
+      "side": "light",
+      "oracle_notes": "Cordé is a handmaiden of Padmé Amidala, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Cliegg Lars",
+      "homeworld": "Tatooine",
+      "side": "light",
+      "oracle_notes": "Cliegg Lars is a moisture farmer, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Poggle the Lesser",
+      "homeworld": "Geonosis",
+      "side": "dark",
+      "oracle_notes": "Poggle the Lesser is an archduke of Geonosis, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Luminara Unduli",
+      "homeworld": "Mirial",
+      "side": "light",
+      "oracle_notes": "Luminara Unduli is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Barriss Offee",
+      "homeworld": "Mirial",
+      "side": "light",
+      "oracle_notes": "Barriss Offee is a Jedi Padawan, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Dormé",
+      "homeworld": "Naboo",
+      "side": "light",
+      "oracle_notes": "Dormé is a handmaiden of Padmé Amidala, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Dooku",
+      "homeworld": "Serenno",
+      "side": "dark",
+      "oracle_notes": "Dooku is a former Jedi turned Sith Lord, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Bail Prestor Organa",
+      "homeworld": "Alderaan",
+      "side": "light",
+      "oracle_notes": "Bail Prestor Organa is a Senator of Alderaan, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Jango Fett",
+      "homeworld": "Concord Dawn",
+      "side": "dark",
+      "oracle_notes": "Jango Fett is a bounty hunter, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Zam Wesell",
+      "homeworld": "Zolan",
+      "side": "dark",
+      "oracle_notes": "Zam Wesell is a bounty hunter, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Dexter Jettster",
+      "homeworld": "Ojom",
+      "side": "light",
+      "oracle_notes": "Dexter Jettster is a diner owner, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Lama Su",
+      "homeworld": "Kamino",
+      "side": "light",
+      "oracle_notes": "Lama Su is the Prime Minister of Kamino, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Taun We",
+      "homeworld": "Kamino",
+      "side": "light",
+      "oracle_notes": "Taun We is an aide to Lama Su, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Jocasta Nu",
+      "homeworld": "Coruscant",
+      "side": "light",
+      "oracle_notes": "Jocasta Nu is the Jedi Temple librarian, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "R4-P17",
+      "homeworld": "unknown",
+      "side": "light",
+      "oracle_notes": "R4-P17 is an astromech droid, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Wat Tambor",
+      "homeworld": "Skako",
+      "side": "dark",
+      "oracle_notes": "Wat Tambor is a leader of the Techno Union, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "San Hill",
+      "homeworld": "Muunilinst",
+      "side": "dark",
+      "oracle_notes": "San Hill is a banker and member of the Separatists, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Shaak Ti",
+      "homeworld": "Shili",
+      "side": "light",
+      "oracle_notes": "Shaak Ti is a Jedi Master, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Grievous",
+      "homeworld": "Kalee",
+      "side": "dark",
+      "oracle_notes": "Grievous is a cyborg and leader of the Separatist army, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Tarfful",
+      "homeworld": "Kashyyyk",
+      "side": "light",
+      "oracle_notes": "Tarfful is a Wookiee chieftain, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Raymus Antilles",
+      "homeworld": "Alderaan",
+      "side": "light",
+      "oracle_notes": "Raymus Antilles is a Rebel captain, and belongs to the Light Side of the Force."
+    },
+    {
+      "name": "Sly Moore",
+      "homeworld": "Umbara",
+      "side": "dark",
+      "oracle_notes": "Sly Moore is an advisor to Palpatine, and belongs to the Dark Side of the Force."
+    },
+    {
+      "name": "Tion Medon",
+      "homeworld": "Utapau",
+      "side": "light",
+      "oracle_notes": "Tion Medon is a port administrator, and belongs to the Light Side of the Force."
+    }
+  ]
+}
