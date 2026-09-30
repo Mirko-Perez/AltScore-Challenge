@@ -2,8 +2,8 @@ from unittest.mock import Mock
 
 import pytest
 
-import missions.silent_probe as silent_probe
-from missions.silent_probe import (
+import missions.e1_silent_probe as silent_probe
+from missions.e1_silent_probe import (
     REQUIRED_MATCHES,
     SOLUTION_PATH,
     collect_confirmed_speed,

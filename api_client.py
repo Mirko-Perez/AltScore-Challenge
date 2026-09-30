@@ -19,8 +19,10 @@ class ApiClient:
         self.base_url = os.environ.get("BASE_URL", "https://makers-challenge.altscore.ai")
         self.headers = {"API-KEY": os.environ.get("API_KEY", "")}
 
-    def get(self, path):
-        response = requests.get(self.base_url + path, headers=self.headers, timeout=10)
+    def get(self, path, params=None):
+        response = requests.get(
+            self.base_url + path, headers=self.headers, params=params, timeout=10
+        )
         return response.json()
 
     def post(self, path, body):

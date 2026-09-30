@@ -1,9 +1,12 @@
 import argparse
 
 from api_client import ApiClient
-from missions import silent_probe
+from missions import e1_silent_probe, e2_kepler_oracle
 
-MISSIONS = {"silent-probe": silent_probe.solve}
+MISSIONS = {
+    "e1-silent-probe": e1_silent_probe.solve,
+    "e2-kepler-oracle": e2_kepler_oracle.solve,
+}
 
 parser = argparse.ArgumentParser()
 parser.add_argument("mission", choices=MISSIONS)
