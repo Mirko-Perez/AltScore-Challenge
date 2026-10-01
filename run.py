@@ -8,6 +8,7 @@ from missions import (
     e4_elven_forge,
     e5_valiant_defense,
     e6_prisma_city,
+    e7_drifting_ship,
 )
 
 MISSIONS = {
@@ -17,12 +18,16 @@ MISSIONS = {
     "e4-elven-forge": e4_elven_forge.solve,
     "e5-valiant-defense": e5_valiant_defense.solve,
     "e6-prisma-city": e6_prisma_city.solve,
+    "e7-drifting-ship": e7_drifting_ship.solve,
 }
 
 parser = argparse.ArgumentParser()
 parser.add_argument("mission", choices=MISSIONS)
 parser.add_argument("--dry-run", action="store_true")
+parser.add_argument("--url", help="solo e7: URL pública de tu API")
 parser.add_argument("--resume", action="store_true", help="solo e5: no llama a start")
 args = parser.parse_args()
 extra = {"resume": True} if args.resume else {}
+if args.url:
+    extra["url"] = args.url
 MISSIONS[args.mission](ApiClient(), dry_run=args.dry_run, **extra)
