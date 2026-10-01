@@ -31,6 +31,16 @@ Razonamiento: /status y /repair-bay tienen que coincidir, así que el servidor r
 sistema elegido. Antes de registrar la URL (que consume un intento) se prueba la API desde afuera
 con un autocheck: `python run.py e7-drifting-ship --url https://tu-api --dry-run`.
 Servidor local: `uvicorn missions.e7_drifting_ship:app --port 8000`.
+
+URL desplegada: https://altscore-challenge-arla.onrender.com
+    GET  https://altscore-challenge-arla.onrender.com/status
+    GET  https://altscore-challenge-arla.onrender.com/repair-bay
+    POST https://altscore-challenge-arla.onrender.com/teapot
+(Si Render la durmió por inactividad, la primera llamada tarda de 30 a 60 s en despertarla.)
+
+Resultado: desplegada en Render (plan gratis, desde GitHub con render.yaml); el robot completó las
+3 comprobaciones al primer intento: {"first_check_complete": true, "second_check_complete": true,
+"third_check_complete": true}.
 """
 
 import random
