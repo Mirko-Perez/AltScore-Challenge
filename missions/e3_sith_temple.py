@@ -30,7 +30,7 @@ import re
 import time
 from pathlib import Path
 
-import requests
+from api_client import get_json_with_retries
 
 SWAPI_PEOPLE_URL = "https://swapi.dev/api/people/"
 SWAPI_PLANETS_URL = "https://swapi.dev/api/planets/"
@@ -38,7 +38,6 @@ ORACLE_PATH = "/v1/s1/e3/resources/oracle-rolodex"
 SOLUTION_PATH = "/v1/s1/e3/solution"
 DATASET_PATH = Path(__file__).resolve().parent.parent / "data" / "e3_holocron.json"
 REQUEST_DELAY_S = 0.2
-MAX_RETRIES = 3
 SIDE_PATTERN = re.compile(r"belongs to the (Light|Dark) Side", re.IGNORECASE)
 
 
@@ -65,19 +64,6 @@ def fetch_swapi_pages(url, delay_s=REQUEST_DELAY_S):
         url = payload["next"]
         time.sleep(delay_s)
     return results
-
-
-def get_json_with_retries(url, params=None, headers=None, retries=MAX_RETRIES):
-    for attempt in range(1, retries + 1):
-        try:
-            response = requests.get(url, params=params, headers=headers, timeout=15)
-            response.raise_for_status()
-            return response.json()
-        except (requests.RequestException, ValueError) as error:
-            if attempt == retries:
-                raise
-            print(f"reintento {attempt}/{retries} para {url}: {error}")
-            time.sleep(attempt)
 
 
 def build_dataset(client, delay_s=REQUEST_DELAY_S):

@@ -7,6 +7,7 @@ from missions import (
     e3_sith_temple,
     e4_elven_forge,
     e5_valiant_defense,
+    e6_prisma_city,
 )
 
 MISSIONS = {
@@ -15,6 +16,7 @@ MISSIONS = {
     "e3-sith-temple": e3_sith_temple.solve,
     "e4-elven-forge": e4_elven_forge.solve,
     "e5-valiant-defense": e5_valiant_defense.solve,
+    "e6-prisma-city": e6_prisma_city.solve,
 }
 
 parser = argparse.ArgumentParser()

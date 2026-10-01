@@ -1,4 +1,5 @@
 import os
+import time
 
 import requests
 
@@ -36,3 +37,16 @@ class ApiClient:
     def post(self, path, body):
         response = requests.post(self.base_url + path, headers=self.headers, json=body, timeout=10)
         return _parse_body(response)
+
+
+def get_json_with_retries(url, params=None, headers=None, retries=3):
+    for attempt in range(1, retries + 1):
+        try:
+            response = requests.get(url, params=params, headers=headers, timeout=15)
+            response.raise_for_status()
+            return response.json()
+        except (requests.RequestException, ValueError) as error:
+            if attempt == retries:
+                raise
+            print(f"reintento {attempt}/{retries} para {url}: {error}")
+            time.sleep(attempt)
