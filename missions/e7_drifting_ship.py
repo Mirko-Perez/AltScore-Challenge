@@ -50,6 +50,8 @@ import requests
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse, JSONResponse
 
+from missions.e9_phase_change import router as phase_change_router
+
 SOLUTION_PATH = "/v1/s1/e7/solution"
 SYSTEM_CODES = {
     "navigation": "NAV-01",
@@ -71,6 +73,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 """
 
 app = FastAPI()
+app.include_router(phase_change_router)  # ruta del ejercicio 9, misma API desplegada
 state = {"damaged_system": random.choice(list(SYSTEM_CODES))}
 
 
