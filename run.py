@@ -9,6 +9,7 @@ from missions import (
     e5_valiant_defense,
     e6_prisma_city,
     e7_drifting_ship,
+    e8_magic_door,
 )
 
 MISSIONS = {
@@ -19,6 +20,7 @@ MISSIONS = {
     "e5-valiant-defense": e5_valiant_defense.solve,
     "e6-prisma-city": e6_prisma_city.solve,
     "e7-drifting-ship": e7_drifting_ship.solve,
+    "e8-magic-door": e8_magic_door.solve,
 }
 
 parser = argparse.ArgumentParser()
